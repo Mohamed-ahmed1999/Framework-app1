@@ -1,0 +1,46 @@
+.footer {
+    background-color:#2C3E50 /* Dark background */
+}
+
+.footer h5 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.icon i {
+    font-size: 24px; /* Adjust icon size */
+}
+.icon i {
+    border: 1px white solid;
+     font-size: 12px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.copynight{
+    background-color: #1A252F;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width: 600px) {
+.icon1{
+    padding-top: 50px ;
+}
+
+.free{
+    padding-top: 50px;
+   
+}
+
+.free  p { 
+    font-size: 14px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+}
+  

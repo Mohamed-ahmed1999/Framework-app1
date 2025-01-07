@@ -1,0 +1,23 @@
+
+.home{
+    background-color: #1ABC9C;
+    height: 100vh;
+}
+
+
+
+
+.line {
+    height: 4px;
+    width: 80px;
+}
+
+.img-fluid{
+    width: 30%;
+   }
+
+@media screen and (max-width: 600px) {
+   .img-fluid{
+    width: 80%;
+   }
+}    

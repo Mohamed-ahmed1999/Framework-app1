@@ -1,0 +1,86 @@
+<!-- <section id="portfolio" class="container my-5 py-5">
+  <h2 class="text-center text-dark fw-bold">PORTFOLIO COMPONENT</h2>
+  <div class="d-flex align-items-center justify-content-center mb-3">
+    <div class="line me-3 bg-dark"></div>
+    <i class="fa-solid fa-star"></i>
+    <div class="line ms-3 bg-dark"></div>
+  </div>
+  <div class="row text-center g-4">
+    <div class="col-lg-4 col-md-6 portfolio-item">
+      <div class="position-relative">
+        <img src="images/poert1.png" alt="" class="img-fluid rounded" >
+        <div class="overlay d-flex align-items-center justify-content-center">
+          <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item">
+      <div class="position-relative">
+        <img src="images/port2.png" alt="" class="img-fluid rounded">
+        <div class="overlay d-flex align-items-center justify-content-center">
+          <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item">
+      <div class="position-relative">
+        <img src="images/port3.png" alt="" class="img-fluid rounded">
+        <div class="overlay d-flex align-items-center justify-content-center">
+          <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item">
+      <div class="position-relative">
+        <img src="images/poert1.png" alt="" class="img-fluid rounded">
+        <div class="overlay d-flex align-items-center justify-content-center">
+          <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item">
+      <div class="position-relative">
+        <img src="images/port2.png" alt="" class="img-fluid rounded">
+        <div class="overlay d-flex align-items-center justify-content-center">
+          <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 portfolio-item">
+      <div class="position-relative">
+        <img src="images/port3.png" alt="" class="img-fluid rounded">
+        <div class="overlay d-flex align-items-center justify-content-center">
+          <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section> -->
+
+
+<section id="portfolio" class="container my-5 py-5">
+  <h2 class="text-center text-dark fw-bold">PORTFOLIO COMPONENT</h2>
+  <div class="d-flex align-items-center justify-content-center mb-3">
+    <div class="line me-3 bg-dark"></div>
+    <i class="fa-solid fa-star"></i>
+    <div class="line ms-3 bg-dark"></div>
+  </div>
+  <div class="row text-center g-4">
+    <div *ngFor="let image of portfolioImages" class="col-lg-4 col-md-6 portfolio-item">
+      <div class="position-relative">
+        <img [src]="image" alt="" class="img-fluid rounded" >
+        <div class="overlay d-flex align-items-center justify-content-center">
+          <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</section>

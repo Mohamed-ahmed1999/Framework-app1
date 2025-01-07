@@ -1,0 +1,21 @@
+.line {
+    height: 4px;
+    width: 80px;
+}
+
+.container {
+    margin-top: 80px;
+    max-width: 800px;
+    height: 100vh;
+
+}
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+    transition: border-color 0.3s;
+}
+
+
+

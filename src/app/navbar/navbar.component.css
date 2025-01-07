@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+.nav-link{
+    font-size: 10px;
+}
+
+
+.active{
+    background-color:#1ABC9C;
+    
+}
+
+
+.navbar {
+    background-color: #2C3E50;
+
+    transition: all 0.3s ease-in-out;
+    
+  }
+  
+  .navbar.scrolled {
+    padding-top: 5px !important;
+    padding-bottom: 3px !important; 
+  }
+  
+  
